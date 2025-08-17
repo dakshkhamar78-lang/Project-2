@@ -1,0 +1,163 @@
+.container {
+  min-height: 100vh;
+  background-color: #42455a;
+}
+
+
+.navbar ul {
+  display: inline-flex;
+  margin: 50px;
+}
+
+.navbar li {
+  font-size: 45px;
+  margin: 50px;
+  color: white;
+  list-style: none;
+}
+
+.navbar img {
+  height: 100px;
+  width: 100px;
+  margin-top: -20px;
+}
+
+.home_Text {
+  color: #19dafa !important;
+}
+
+
+.signUp_button {
+  position: absolute;
+  top: 55px;
+  right: 60px;
+  border: 5px solid transparent;
+  background-image: linear-gradient(#42455a, #42455a), radial-gradient(circle at top, #fd00da, #19d7f8);
+  background-clip: content-box, border-box;
+  border-radius: 50px;
+  height: 90px;
+  width: 250px;
+}
+
+
+
+.signUp_button a {
+  text-decoration: none;
+  color: white;
+  font-size: 65px;
+  margin-left: 19px;
+}
+
+
+
+.content {
+  margin: 0 250px;
+}
+
+.content h1 {
+  font-size: 85px;
+  color: #fff;
+  font-weight: bolder;
+}
+
+.content p {
+  font-size: 30px;
+  color: #919191;
+  letter-spacing: 1.2px;
+  line-height: 35px;
+}
+
+.bitcoin_image {
+  float: right;
+  width: 50%;
+}
+
+.bitcoin_image img {
+
+  height: 850px;
+  width: 900px;
+  margin-top: -550px;
+  margin-left: 250px;
+}
+
+
+.play_button_inner {
+  margin-top: 140px;
+  margin-left: 250px;
+  border: 5px solid transparent;
+  background-image: linear-gradient(#42455a, #42455a), radial-gradient(circle at top, #fd00da, #19d7f8);
+  background-clip: content-box, border-box;
+  border-radius: 50%;
+  height: 65px;
+  width: 65px;
+}
+
+.play_button_inner i {
+
+  margin-top: 7px;
+  font-size: 50px;
+  margin-left: 15px;
+  color: white;
+  cursor: pointer;
+}
+
+
+
+small {
+
+  color: white;
+  position: absolute;
+  font-size: 35px;
+  margin-left: 45px;
+  margin-top: 15px;
+  letter-spacing: 4px;
+  cursor: pointer;
+  color: #19dafa;
+}
+
+.quick_links{
+  left: 8px;
+  bottom: -8px;
+  position: absolute;
+  background-image: linear-gradient(to right  , #db1bf6 ,#19d7f8);
+  width: 50%;
+  font-size: 40px;
+
+}
+
+.quick_links li{
+  
+  list-style: none;
+  display: inline-flex;
+  margin: 10px; 
+  cursor: pointer;
+  text-align: center;
+  color: #fff;
+  letter-spacing: 4px;
+}
+
+
+.socialMedia_icon{
+  
+  position: absolute;
+  right: 50px;
+  bottom: 50px;
+  font-size: 45px;
+}
+
+.socialMedia_icon li{
+  list-style: none;
+  border: 3px solid #999;
+  border-radius: 50%;
+  height: 55px;
+  width: 55px; 
+  
+}
+
+.socialMedia_icon a{
+  color: #fff;
+  margin-left: 7px;
+  display: block;
+  color:aqua;
+  padding-top: 4px;
+}
